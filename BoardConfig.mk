@@ -12,6 +12,9 @@ DEVICE_PATH := device/xiaomi/polaris
 # Assert
 TARGET_OTA_ASSERT_DEVICE := polaris
 
+# Audio
+AUDIO_FEATURE_ELLIPTIC_ULTRASOUND_SUPPORT := true
+
 # Kernel
 TARGET_KERNEL_CONFIG := polaris_defconfig
 
