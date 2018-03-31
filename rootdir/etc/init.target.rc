@@ -1,2 +1,3 @@
 on init
     mount none /system/bin/time_daemon /vendor/bin/time_daemon bind
+	mount none /system/etc/usb_audio_policy_configuration.xml /vendor/etc/usb_audio_policy_configuration.xml bind
