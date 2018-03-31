@@ -1,2 +1,5 @@
+# Audio
+/system/etc/usb_audio_policy_configuration.xml    u:object_r:vendor_configs_file:s0
+
 # Time services
 /system/bin/time_daemon         u:object_r:time_daemon_exec:s0
