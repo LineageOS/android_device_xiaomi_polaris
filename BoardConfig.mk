@@ -15,5 +15,8 @@ TARGET_OTA_ASSERT_DEVICE := polaris
 # Kernel
 TARGET_KERNEL_CONFIG := polaris_defconfig
 
+# Properties
+TARGET_SYSTEM_PROP += $(DEVICE_PATH)/system.prop
+
 # Inherit from the proprietary version
 -include vendor/xiaomi/polaris/BoardConfigVendor.mk
