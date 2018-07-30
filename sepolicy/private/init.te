@@ -1,0 +1,2 @@
+# Allow init to bind mount time_daemon
+allow init time_daemon_exec:file mounton;

@@ -83,6 +83,9 @@ framework/qti-telephony-common.jar
 framework/QtiTelephonyServicelibrary.jar
 -priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk
 
+# Time services - from dipper - OPM1.171019.011
+vendor/bin/time_daemon:bin/time_daemon|217bc99fa738b2888f4f26c00b0976316dca2b5a
+
 # VNDK
 lib64/android.frameworks.displayservice@1.0.so:lib64/vndk-compat/android.frameworks.displayservice@1.0.so
 lib64/android.frameworks.schedulerservice@1.0.so:lib64/vndk-compat/android.frameworks.schedulerservice@1.0.so
