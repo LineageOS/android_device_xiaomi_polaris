@@ -1,0 +1,2 @@
+# Time services
+/system/bin/time_daemon         u:object_r:time_daemon_exec:s0
