@@ -1,0 +1,2 @@
+on init
+    mount none /system/bin/time_daemon /vendor/bin/time_daemon bind
