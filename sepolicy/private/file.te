@@ -1,1 +1,4 @@
+type ipacm, hwservice_manager_type;
+type netmgrd, hwservice_manager_type;
+
 type time_daemon_exec, vendor_file_type, file_type;
