@@ -1,1 +1,8 @@
+type qti_init_shell, vendor_file_type, file_type;
+
+type sysfs_devfreq, sysfs_type, fs_type;
+
+type ipacm, hwservice_manager_type;
+type netmgrd, hwservice_manager_type;
+
 type time_daemon_exec, vendor_file_type, file_type;
