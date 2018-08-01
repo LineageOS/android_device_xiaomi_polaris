@@ -1,0 +1,5 @@
+allow qti_init_shell {
+    sysfs_devices_system_cpu
+    sysfs_devfreq
+    sysfs_lowmemorykiller
+}:file w_file_perms;

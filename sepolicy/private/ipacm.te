@@ -1,0 +1,1 @@
+allow ipacm hal_tetheroffload_hwservice:hwservice_manager add;
