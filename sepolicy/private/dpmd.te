@@ -1,0 +1,2 @@
+get_prop(dpmd, hwservicemanager_prop)
+hwbinder_use(dpmd)
