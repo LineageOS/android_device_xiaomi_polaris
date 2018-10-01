@@ -18,8 +18,8 @@ TARGET_KERNEL_CONFIG := polaris_defconfig
 # NFC
 TARGET_USES_NQ_NFC := true
 
-# Inherit from the proprietary version
--include vendor/xiaomi/polaris/BoardConfigVendor.mk
-
 # Sepolicy
 BOARD_PLAT_PRIVATE_SEPOLICY_DIR += $(DEVICE_PATH)/sepolicy/private
+
+# Inherit from the proprietary version
+-include vendor/xiaomi/polaris/BoardConfigVendor.mk
