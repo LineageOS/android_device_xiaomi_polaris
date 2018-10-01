@@ -1,0 +1,3 @@
+# Manifest
+/system/etc/manifest.xml	u:object_r:vendor_configs_file:s0
+
