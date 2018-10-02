@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "6c23027a_03484a1a",
+        "filename": "rootdir/Android.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 8,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2018-10-02T08:43:23Z",
+      "side": 1,
+      "message": "https://github.com/LineageOS/android_device_xiaomi_polaris/blob/lineage-15.1/rootdir/Android.mk#L8",
+      "revId": "be67b9da2538cf45ad80b6f110e6024bbd8eafe0",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
