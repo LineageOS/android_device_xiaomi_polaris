@@ -15,6 +15,9 @@ TARGET_OTA_ASSERT_DEVICE := polaris
 # Kernel
 TARGET_KERNEL_CONFIG := polaris_defconfig
 
+# NFC
+TARGET_USES_NQ_NFC := true
+
 # Inherit from the proprietary version
 -include vendor/xiaomi/polaris/BoardConfigVendor.mk
 
