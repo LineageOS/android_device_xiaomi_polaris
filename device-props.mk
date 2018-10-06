@@ -16,3 +16,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.qcom.ad.sensortype=2 \
     ro.qualcomm.cabl=0 \
     ro.whitepoint_calibration_enable=false
+
+# Media
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.config.media_vol_steps=32
