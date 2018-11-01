@@ -1,0 +1,44 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "8a841708_106f33de",
+        "filename": "overlay/frameworks/base/core/res/res/values/config.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 82,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2018-11-01T15:51:21Z",
+      "side": 1,
+      "message": "This must be trashed when using config_autoBrightnessDisplayValuesNits",
+      "revId": "e9f6635edd492f68cf975484a0ab6e50cd9f3a27",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "be7bb3a0_f984e21b",
+        "filename": "overlay/frameworks/base/core/res/res/values/config.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 122,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2018-11-01T15:51:21Z",
+      "side": 1,
+      "message": "We are missing these.",
+      "range": {
+        "startLine": 121,
+        "startChar": 0,
+        "endLine": 122,
+        "endChar": 62
+      },
+      "revId": "e9f6635edd492f68cf975484a0ab6e50cd9f3a27",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
