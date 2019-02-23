@@ -16,7 +16,7 @@ TARGET_OTA_ASSERT_DEVICE := polaris
 TARGET_KERNEL_CONFIG := polaris_defconfig
 
 # HIDL
-DEVICE_FRAMEWORK_MANIFEST_FILE += $(DEVICE_PATH)/framework_manifest.xml
+DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest.xml
 
 # NFC
 TARGET_USES_NQ_NFC := true
@@ -32,6 +32,3 @@ TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/rootdir/etc/fstab.qcom
 
 # Inherit from the proprietary version
 -include vendor/xiaomi/polaris/BoardConfigVendor.mk
-
-# Sepolicy
-BOARD_PLAT_PRIVATE_SEPOLICY_DIR += $(DEVICE_PATH)/sepolicy/private
