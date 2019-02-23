@@ -17,6 +17,7 @@ TARGET_KERNEL_CONFIG := polaris_defconfig
 
 # HIDL
 DEVICE_FRAMEWORK_MANIFEST_FILE += $(DEVICE_PATH)/framework_manifest.xml
+DEVICE_MANIFEST_FILE := $(DEVICE_PATH)/manifest.xml
 
 # NFC
 TARGET_USES_NQ_NFC := true
