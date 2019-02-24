@@ -15,3 +15,14 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.eyecare.brightness.threshold=15 \
     ro.eyecare.brightness.level=8 \
     ro.whitepoint_calibration_enable=false
+
+# Polaris only
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.hardware.nfc_nci=nqx.default \
+    ro.vendor.audio.us.proximity=true \
+    ro.vendor.audio.recording.hd=true \
+    ro.vendor.audio.sos=true \
+    ro.df.effect.conflict=1 \
+    persist.df.extcolor.proc=0 \
+    persist.vendor.facearea.dom=CN \
+    persist.vendor.facearea.global=IN,ID,RU,HK,TW,TR,TH,SG,MY,VN,UA,DK,SE
