@@ -1,2 +1,0 @@
-on init
-    mount none /system/etc/libnfc-nxp.conf /vendor/etc/libnfc-nxp.conf bind
