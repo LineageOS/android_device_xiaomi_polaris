@@ -20,6 +20,8 @@ DEVICE_FRAMEWORK_MANIFEST_FILE += $(DEVICE_PATH)/framework_manifest.xml
 DEVICE_MANIFEST_FILE := $(DEVICE_PATH)/manifest.xml
 
 # NFC
+BOARD_NFC_CHIPSET := pn553
+NQ3XX_PRESENT := true
 TARGET_USES_NQ_NFC := true
 
 # Partitions
