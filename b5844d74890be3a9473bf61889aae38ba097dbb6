@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "70292817_e63e3908",
+        "filename": "device.mk",
+        "patchSetId": 7
+      },
+      "lineNbr": 75,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2019-03-13T21:37:29Z",
+      "side": 1,
+      "message": "This is wrong. We should be using QTI service (prebuilt vendor.qti.secure_element@1.0-service). It looks like the only dependency of it is android.hardware.secure_element@1.0-impl.so.",
+      "range": {
+        "startLine": 75,
+        "startChar": 4,
+        "endLine": 75,
+        "endChar": 49
+      },
+      "revId": "b5844d74890be3a9473bf61889aae38ba097dbb6",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    }
+  ]
+}
