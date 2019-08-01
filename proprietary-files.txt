@@ -183,6 +183,10 @@ vendor/lib/mibokeh_845_opencl.bin
 vendor/firmware/bu64748gwz.prog
 vendor/firmware/CAMERA_ICP.elf
 
+# Camera OIS firmware
+vendor/firmware/dipper_ois.coeff
+vendor/firmware/dipper_ois.prog
+
 # Display configs
 vendor/etc/hdr_config.cfg
 vendor/etc/sdr_config.cfg
