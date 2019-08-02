@@ -9,13 +9,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.sf.lcd_density=440
 
-# Display features
-PRODUCT_PROPERTY_OVERRIDES += \
-    ro.displayfeature.histogram.enable=true \
-    ro.eyecare.brightness.threshold=15 \
-    ro.eyecare.brightness.level=8 \
-    ro.whitepoint_calibration_enable=false
-
 # Fingerprint
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.hardware.fp.fpc=true \
