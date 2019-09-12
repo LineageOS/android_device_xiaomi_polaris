@@ -30,11 +30,3 @@
 on fs
     chmod 644 /mnt/vendor/persist/audio/us_manual_cal
     chmod 644 /persist/audio/us_manual_cal
-
-service displayfeature-hal-1-0 /vendor/bin/hw/vendor.xiaomi.hardware.displayfeature@1.0-service
-    override
-    class hal
-    user system
-    group system graphics
-    onrestart restart displayfeature
-    disabled
