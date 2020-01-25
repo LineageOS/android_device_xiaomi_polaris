@@ -13,13 +13,17 @@
     <ctl name="QUAT_MI2S_RX_Voice Mixer VoiceMMode2" value="0" />
     <ctl name="QUAT_MI2S_RX_Voice Mixer Voip" value="0" />
     <ctl name="ADC3 Volume" value="12" />
+    <!-- Ultrasound -->
     <!-- smart pa default config -->
     <ctl name="Program" value="0" />
-    <ctl name="Configuration" value="4" />
+    <ctl name="Configuration" value="14" />
     <ctl name="TAS2559 DAC Playback Volume" value="15" />
     <ctl name="QUAT_MI2S_RX Channels" value="Two" />
-    <ctl name="QUAT_MI2S_TX Channels" value="Two" />
+    <ctl name="QUAT_MI2S_RX Format" value="S24_LE" />
     <ctl name="QUAT_MI2S_RX SampleRate" value="KHZ_48" />
+    <ctl name="QUAT_MI2S_TX Channels" value="Two" />
+    <ctl name="QUAT_MI2S_TX Format" value="S24_LE" />
+    <ctl name="QUAT_MI2S_TX SampleRate" value="KHZ_48" />
     <ctl name="External AMIC2 Mux" value="Dual_ADC" />
 
     <path name="deep-buffer-playback speaker-protected">
@@ -419,16 +423,16 @@
 
     <path name="speaker-mono-2">
         <ctl name="QUAT_MI2S_RX Channels" value="One" />
-        <ctl name="Configuration" value="2" />
+        <ctl name="Configuration" value="12" />
     </path>
 
     <path name="voice-speaker">
         <path name="speaker-mono-2" />
-        <ctl name="Configuration" value="2" />
+        <ctl name="Configuration" value="12" />
     </path>
 
     <path name="speaker">
-        <ctl name="Configuration" value="4" />
+        <ctl name="Configuration" value="14" />
     </path>
 
     <path name="speaker-protected">
@@ -441,7 +445,7 @@
 
     <path name="handset">
         <ctl name="QUAT_MI2S_RX Channels" value="One" />
-        <ctl name="Configuration" value="3" />
+        <ctl name="Configuration" value="13" />
         <ctl name="TAS2559 DAC Playback Volume" value="7" />
     </path>
 
