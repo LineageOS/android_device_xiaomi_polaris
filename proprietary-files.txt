@@ -1,4 +1,4 @@
-# Device proprietary files - from polaris' MIUI package V11.0.5.0.QDGMIXM global stable version
+# Device proprietary files - from polaris' MIUI package V12.0.2.0.QDGCNXM CN stable version
 
 # ACDB
 vendor/etc/acdbdata/Forte/Forte_Bluetooth_cal.acdb
@@ -17,6 +17,7 @@ vendor/lib/libacdbloader.so
 # ADSP modules
 vendor/lib/rfsa/adsp/dirac_resource.dar
 vendor/lib/rfsa/adsp/libarcsoft_dualcam_refocus_skel.so
+vendor/lib/rfsa/adsp/libSuperSensor_skel.so
 
 # Audio (speaker amplifier) firmware
 vendor/firmware/tas2559_uCDSP.bin
