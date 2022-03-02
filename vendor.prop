@@ -1,2 +1,5 @@
 # Bluetooth
 bluetooth.device.default_name=Xiaomi Mi MIX 2S
+
+# USB
+vendor.usb.product_string=Xiaomi Mi MIX 2S
