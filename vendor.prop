@@ -1,3 +1,0 @@
-# NFC
-ro.hardware.nfc_nci=nqx.default
-ro.se.type=HCE,UICC
