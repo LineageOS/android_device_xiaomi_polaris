@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "1479a7f5_bdce0cfa",
+        "filename": "overlay/frameworks/base/packages/SystemUI/res/values/config.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 35,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2023-11-13T18:18:35Z",
+      "side": 1,
+      "message": "This config doesn\u0027t exist tho.",
+      "range": {
+        "startLine": 35,
+        "startChar": 17,
+        "endLine": 35,
+        "endChar": 41
+      },
+      "revId": "334c3b2440517206639b433af926b809a3de9061",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
