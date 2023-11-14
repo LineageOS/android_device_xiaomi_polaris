@@ -88,6 +88,24 @@
       "parentUuid": "15678822_b52ccbb2",
       "revId": "13229519e39d029fd05b1b7eb5187bca844c1887",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "d80b8175_9634ea06",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 32181
+      },
+      "writtenOn": "2023-11-14T10:07:50Z",
+      "side": 1,
+      "message": "Yes, he made some changes to the auto-brightness in overlay, maybe cherry-pick them when appropriate.",
+      "parentUuid": "a99605a3_389fa2b6",
+      "revId": "13229519e39d029fd05b1b7eb5187bca844c1887",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ],
   "submitRequirementResults": []
