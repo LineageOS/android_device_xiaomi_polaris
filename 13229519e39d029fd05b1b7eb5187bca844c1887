@@ -52,6 +52,24 @@
       "parentUuid": "431f6fc7_daab7ec8",
       "revId": "13229519e39d029fd05b1b7eb5187bca844c1887",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "15678822_b52ccbb2",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 32181
+      },
+      "writtenOn": "2023-11-14T09:47:02Z",
+      "side": 1,
+      "message": "No, but I\u0027ve had someone else test it before and it looks better with rounded corners.\nhttps://s2.loli.net/2023/11/14/jSoOblEA93aCWhn.jpg\nhttps://s2.loli.net/2023/11/14/vSECN7j2wqP4nuU.jpg",
+      "parentUuid": "a41e84d4_1a04e8fe",
+      "revId": "13229519e39d029fd05b1b7eb5187bca844c1887",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ],
   "submitRequirementResults": []
