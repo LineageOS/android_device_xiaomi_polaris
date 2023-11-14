@@ -70,6 +70,24 @@
       "parentUuid": "a41e84d4_1a04e8fe",
       "revId": "13229519e39d029fd05b1b7eb5187bca844c1887",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "a99605a3_389fa2b6",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2023-11-14T09:54:05Z",
+      "side": 1,
+      "message": "Okay, I was wondering if you had the device because mine is broken. People at XDa also complain about auto brightness and I think that Zhong changed the ovarlays for PE builds.",
+      "parentUuid": "15678822_b52ccbb2",
+      "revId": "13229519e39d029fd05b1b7eb5187bca844c1887",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ],
   "submitRequirementResults": []
