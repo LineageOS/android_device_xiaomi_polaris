@@ -1,5 +1,8 @@
 # Bluetooth
 bluetooth.device.default_name=Xiaomi Mi MIX 2S
 
+# Fingerprint
+persist.vendor.fingerprint.type=rear
+
 # USB
 vendor.usb.product_string=Xiaomi Mi MIX 2S
