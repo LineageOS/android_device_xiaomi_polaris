@@ -18,8 +18,8 @@ vendor/etc/acdbdata/adsp_avs_config.acdb
 
 # ADSP modules
 vendor/lib/rfsa/adsp/dirac_resource.dar
-vendor/lib/rfsa/adsp/libarcsoft_dualcam_refocus_skel.so
 vendor/lib/rfsa/adsp/libSuperSensor_skel.so
+vendor/lib/rfsa/adsp/libarcsoft_dualcam_refocus_skel.so
 
 # Audio (speaker amplifier) firmware
 vendor/firmware/tas2559_uCDSP.bin
@@ -42,6 +42,8 @@ vendor/lib64/libbtnv.so
 vendor/lib64/vendor.qti.hardware.bluetooth_sar@1.0.so
 
 # Camera
+vendor/etc/camera/MIUI_Time.ttf
+vendor/etc/camera/Miui-Light.ttf
 vendor/etc/camera/age_gender_bg
 vendor/etc/camera/beauty_ui9_intelligent_params.config
 vendor/etc/camera/camxoverridesettings.txt
@@ -57,8 +59,6 @@ vendor/etc/camera/hdr_ui9_params.config
 vendor/etc/camera/lf_facerank_model.bin
 vendor/etc/camera/male_bg.png
 vendor/etc/camera/male_icon.png
-vendor/etc/camera/Miui-Light.ttf
-vendor/etc/camera/MIUI_Time.ttf
 vendor/etc/camera/people_gender.dat
 vendor/etc/camera/score_bg.png
 vendor/etc/camera/score_icon.png
@@ -67,13 +67,13 @@ vendor/etc/camera/watermark_font_2300_3199.dat
 vendor/lib/camera/components/etc/GpuKernelRepo.pb
 vendor/lib/camera/components/etc/model_back.dlc
 vendor/lib/camera/components/etc/model_front.dlc
-vendor/lib/camera/components/etc/morpho_lowlight4.0_adrc_high_1.xml
-vendor/lib/camera/components/etc/morpho_lowlight4.0_adrc_high.xml
 vendor/lib/camera/components/etc/morpho_lowlight4.0.xml
+vendor/lib/camera/components/etc/morpho_lowlight4.0_adrc_high.xml
+vendor/lib/camera/components/etc/morpho_lowlight4.0_adrc_high_1.xml
 vendor/lib/camera/components/com.arcsoft.node.capturebokeh.so
 vendor/lib/camera/components/com.arcsoft.node.capturefusion.so
-vendor/lib/camera/components/com.arcsoft.node.hdrchecker.so
 vendor/lib/camera/components/com.arcsoft.node.hdr.so
+vendor/lib/camera/components/com.arcsoft.node.hdrchecker.so
 vendor/lib/camera/components/com.arcsoft.node.realtimebokeh.so
 vendor/lib/camera/components/com.arcsoft.node.skinbeautifier.so
 vendor/lib/camera/components/com.arcsoft.node.smoothtransition.so
@@ -96,8 +96,8 @@ vendor/lib/camera/components/com.qti.node.watermark.so
 vendor/lib/camera/components/com.qti.node.xiaomigenderage.so
 vendor/lib/camera/components/com.qti.stats.aec.so
 vendor/lib/camera/components/com.qti.stats.aecwrapper.so
-vendor/lib/camera/components/com.qti.stats.afd.so
 vendor/lib/camera/components/com.qti.stats.af.so
+vendor/lib/camera/components/com.qti.stats.afd.so
 vendor/lib/camera/components/com.qti.stats.asd.so
 vendor/lib/camera/components/com.qti.stats.awb.so
 vendor/lib/camera/components/com.qti.stats.awbwrapper.so
@@ -107,13 +107,13 @@ vendor/lib/camera/components/com.qti.stats.pdlibwrapper.so
 vendor/lib/camera/components/com.vidhance.node.eis.so
 vendor/lib/camera/components/com.xiaomi.node.mibokeh.so
 vendor/lib/camera/com.qti.sensor.imx363.so
+vendor/lib/camera/com.qti.sensor.ov5675.so
+vendor/lib/camera/com.qti.sensor.s5k3m3.so
 vendor/lib/camera/com.qti.sensormodule.imx333.bin
 vendor/lib/camera/com.qti.sensormodule.imx363.bin
 vendor/lib/camera/com.qti.sensormodule.ov5675.bin
 vendor/lib/camera/com.qti.sensormodule.s5k3m3.bin
 vendor/lib/camera/com.qti.sensormodule.s5k3m3sn03.bin
-vendor/lib/camera/com.qti.sensor.ov5675.so
-vendor/lib/camera/com.qti.sensor.s5k3m3.so
 vendor/lib/camera/com.qti.tuned.default.bin
 vendor/lib/camera/com.qti.tuned.primax_ov5675.bin
 vendor/lib/camera/com.qti.tuned.semco_imx363.bin
@@ -125,19 +125,25 @@ vendor/lib/camera/fdconfigvideolite.bin
 vendor/lib/camera/systemdefault.bin
 vendor/lib/hw/camera.qcom.so
 vendor/lib/hw/com.qti.chi.override.so
+vendor/lib/libFaceGrade.so
+vendor/lib/libHalSuperSensorServer.so
+vendor/lib/libSNPE.so;DISABLE_CHECKELF
+vendor/lib/libSuperSensor.so
+vendor/lib/libSuperSensorCPU.so
+vendor/lib/libXMFD_AgeGender.so
 vendor/lib/lib_denoiser3.so
 vendor/lib/libarcsoft_beautyshot.so
 vendor/lib/libarcsoft_dualcam_image_optical_zoom.so
 vendor/lib/libarcsoft_dualcam_optical_zoom_control.so
+vendor/lib/libarcsoft_dualcam_refocus.so
 vendor/lib/libarcsoft_dualcam_refocus_front.so
 vendor/lib/libarcsoft_dualcam_refocus_rear_t.so
 vendor/lib/libarcsoft_dualcam_refocus_rear_w.so
-vendor/lib/libarcsoft_dualcam_refocus.so
 vendor/lib/libarcsoft_dualcam_video_optical_zoom.so
 vendor/lib/libarcsoft_high_dynamic_range.so
 vendor/lib/libarcsoft_low_light_hdr.so
-vendor/lib/libarcsoft_portrait_lighting_c.so
 vendor/lib/libarcsoft_portrait_lighting.so
+vendor/lib/libarcsoft_portrait_lighting_c.so
 vendor/lib/libarcsoft_supernight.so
 vendor/lib/libc++_shared.so
 vendor/lib/libcamera_scene.so
@@ -146,27 +152,21 @@ vendor/lib/libcamxfdengine.so
 vendor/lib/libcamxstatscore.so
 vendor/lib/libcamxtintlessalgo.so
 vendor/lib/libcom.qti.chinodeutils.so
-vendor/lib/libFaceGrade.so
 vendor/lib/libft2vendor.so
-vendor/lib/libHalSuperSensorServer.so
 vendor/lib/libmibokeh_845.so
 vendor/lib/libmmcamera_faceproc.so
 vendor/lib/libmmcamera_faceproc2.so
 vendor/lib/libmpbase.so
-vendor/lib/libSNPE.so;DISABLE_CHECKELF
-vendor/lib/libSuperSensor.so
-vendor/lib/libSuperSensorCPU.so
 vendor/lib/libswregistrationalgo.so
 vendor/lib/libsymphony-cpu.so
 vendor/lib/libsymphonypower.so
 vendor/lib/libtonemapalgo.so
 vendor/lib/libvidhance.so
-vendor/lib/libXMFD_AgeGender.so
 vendor/lib/mibokeh_845_opencl.bin
 
 # Camera firmware
-vendor/firmware/bu64748gwz.prog
 vendor/firmware/CAMERA_ICP.elf
+vendor/firmware/bu64748gwz.prog
 
 # Camera OIS firmware
 vendor/firmware/dipper_ois.coeff
@@ -202,20 +202,20 @@ vendor/lib64/libaoa.so
 vendor/lib64/libbatching.so
 vendor/lib64/libcacertclient.so
 vendor/lib64/libdataitems.so
-vendor/lib64/libgeofencing.so
 vendor/lib64/libgdtap.so
-vendor/lib64/libgnsspps.so
+vendor/lib64/libgeofencing.so
 vendor/lib64/libgnss.so
+vendor/lib64/libgnsspps.so
 vendor/lib64/libgps.utils.so
 vendor/lib64/libizat_client_api.so
 vendor/lib64/libizat_core.so
 vendor/lib64/libjnihelper.so
 vendor/lib64/liblbs_core.so
-vendor/lib64/liblocation_api.so
-vendor/lib64/liblocationservice_glue.so
-vendor/lib64/liblocationservice.so
 vendor/lib64/libloc_api_v02.so
 vendor/lib64/libloc_core.so
+vendor/lib64/liblocation_api.so
+vendor/lib64/liblocationservice.so
+vendor/lib64/liblocationservice_glue.so
 vendor/lib64/liblowi_client.so
 vendor/lib64/liblowi_wifihal.so
 vendor/lib64/libminksocket.so
@@ -227,8 +227,8 @@ vendor/lib64/vendor.qti.gnss@1.1.so
 vendor/lib64/vendor.qti.gnss@1.2.so
 vendor/lib64/vendor.qti.gnss@2.0.so
 vendor/lib64/vendor.qti.gnss@2.1.so
-vendor/lib64/vendor.qti.gnss@3.0.so
 vendor/lib64/vendor.qti.gnss@3.0-service.so
+vendor/lib64/vendor.qti.gnss@3.0.so
 vendor/lib64/vendor.qti.hardware.cacert@1.0.so
 
 # Keymaster
